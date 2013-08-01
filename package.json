@@ -1,14 +1,16 @@
 {
-   "name":"APPNAME",
-   "description":"Nothing here yet",
+   "name":"super-proxy",
+   "description":"Express for reverse proxies on top of bouncy",
    "version":"0.0.1",
-   "homepage":"http://github.com/wearefractal/APPNAME",
-   "repository":"git://github.com/wearefractal/APPNAME.git",
+   "homepage":"http://github.com/wearefractal/super-proxy",
+   "repository":"git://github.com/wearefractal/super-proxy.git",
    "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
    "main":"./index.js",
    
    "dependencies":{
-      
+      "bouncy":"*",
+      "async":"*",
+      "express":"*"
    },
    "devDependencies":{
       "mocha":"*",
@@ -23,7 +25,7 @@
    "licenses":[
       {
          "type":"MIT",
-         "url":"http://github.com/wearefractal/APPNAME/raw/master/LICENSE"
+         "url":"http://github.com/wearefractal/super-proxy/raw/master/LICENSE"
       }
    ]
 }

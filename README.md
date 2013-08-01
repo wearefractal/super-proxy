@@ -1,16 +1,16 @@
-[![Build Status](https://travis-ci.org/wearefractal/APPNAME.png?branch=master)](https://travis-ci.org/wearefractal/APPNAME)
+[![Build Status](https://travis-ci.org/wearefractal/super-proxy.png?branch=master)](https://travis-ci.org/wearefractal/super-proxy)
 
-[![NPM version](https://badge.fury.io/js/APPNAME.png)](http://badge.fury.io/js/APPNAME)
+[![NPM version](https://badge.fury.io/js/super-proxy.png)](http://badge.fury.io/js/super-proxy)
 
 ## Information
 
 <table>
 <tr> 
-<td>Package</td><td>APPNAME</td>
+<td>Package</td><td>super-proxy</td>
 </tr>
 <tr>
 <td>Description</td>
-<td>NOTHING HERE YET</td>
+<td>Express for reverse proxies on top of bouncy</td>
 </tr>
 <tr>
 <td>Node Version</td>
@@ -18,15 +18,17 @@
 </tr>
 </table>
 
+Basically this allows you to define a reverse proxy using the middleware format. The request and response objects are augmented with the same functionality as Express but a .bounce() function is added. This should be compatible with express middleware.
+
 ## Usage
 
 ```javascript
-NOTHING HERE YET
+Reverse proxy mega-library
 ```
 
 ## Examples
 
-You can view more examples in the [example folder.](https://github.com/wearefractal/APPNAME/tree/master/examples)
+You can view more examples in the [example folder.](https://github.com/wearefractal/super-proxy/tree/master/examples)
 
 ## LICENSE
 
